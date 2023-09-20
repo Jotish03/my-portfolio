@@ -22,6 +22,7 @@ import {
   carrent,
   jobit,
   tripguide,
+  jsearch,
   threejs,
 } from "../assets";
 
@@ -219,24 +220,25 @@ const projects = [
     source_code_link: "https://amazon-clone-build-gilt.vercel.app/",
   },
   {
-    name: "Spotify Clone Build",
-    description: "Spotify Clone build using ReactJS,TailwindCSS,ShazamCore",
+    name: "Job Search Build",
+    description:
+      "JSearch: Your Next Career Awaits - (Download .APK to explore)",
     tags: [
       {
-        name: "nextjs",
+        name: "react-native",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "expo",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "RapidAPI",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://amazon-clone-build-gilt.vercel.app/",
+    image: jsearch,
+    apk_download_link: "./Jsearch.apk", // Replace with the actual path to your .APK file
   },
 ];
 
